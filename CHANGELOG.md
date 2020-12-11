@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/depcheck-parser-vue/compare/v1.0.2...v1.0.3) (2020-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v5 ([cff1b88](https://github.com/dword-design/depcheck-parser-vue/commit/cff1b883e77669c6bd665a2144fa3c195891070c))
+
 ## [1.0.2](https://github.com/dword-design/depcheck-parser-vue/compare/v1.0.1...v1.0.2) (2020-12-02)
 
 
