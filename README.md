@@ -54,8 +54,8 @@ Start by creating a `.babelrc.json` file with your babel config, if needed.
 Custom parsers are currently only supported when using `depcheck` via the Node.js API. Simply add the parser to your parser config and run depcheck:
 
 ```js
-import depcheck from 'depcheck'
-import parserVue from 'depcheck-parser-vue'
+const depcheck = require('depcheck')
+const parserVue = require('depcheck-parser-vue')
 
 const options = {
   parsers: {
@@ -63,11 +63,10 @@ const options = {
   },
 }
 
-depcheck('/path/to/your/project', options, (unused) => {
+depcheck(process.cwd(), options, (unused) => {
   console.log(unused.dependencies); // an array containing the unused dependencies
   console.log(unused.devDependencies); // an array containing the unused devDependencies
   console.log(unused.missing); // a lookup containing the dependencies missing in `package.json` and where they are used
-  console.log(unused.using); // a lookup indicating each dependency is used by which files
   console.log(unused.invalidFiles); // files that cannot access or parse
   console.log(unused.invalidDirs); // directories that cannot access
 })
