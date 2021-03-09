@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-[![NPM version](https://img.shields.io/npm/v/depcheck-parser-vue.svg)](https://npmjs.org/package/depcheck-parser-vue)
+[![npm version](https://img.shields.io/npm/v/depcheck-parser-vue.svg)](https://npmjs.org/package/depcheck-parser-vue)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
 [![Build status](https://github.com/dword-design/depcheck-parser-vue/workflows/build/badge.svg)](https://github.com/dword-design/depcheck-parser-vue/actions)
 [![Coverage status](https://img.shields.io/coveralls/dword-design/depcheck-parser-vue)](https://coveralls.io/github/dword-design/depcheck-parser-vue)
@@ -41,7 +41,7 @@ A depcheck Vue parser that uses an existing babel config instead of a fixed set 
 ## Install
 
 ```bash
-# NPM
+# npm
 $ npm install depcheck-parser-vue
 
 # Yarn
