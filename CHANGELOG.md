@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/dword-design/depcheck-parser-vue/compare/v1.0.8...v1.0.9) (2021-03-23)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v3 ([#10](https://github.com/dword-design/depcheck-parser-vue/issues/10)) ([0ea4302](https://github.com/dword-design/depcheck-parser-vue/commit/0ea4302f2c206d756a945c86a7115748f1ba03e3))
+
 ## [1.0.8](https://github.com/dword-design/depcheck-parser-vue/compare/v1.0.7...v1.0.8) (2021-03-22)
 
 
