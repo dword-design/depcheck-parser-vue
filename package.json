@@ -1,6 +1,6 @@
 {
   "name": "depcheck-parser-vue",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A depcheck Vue parser that uses an existing babel config instead of a fixed set of plugins.",
   "repository": "dword-design/depcheck-parser-vue",
   "funding": "https://www.buymeacoffee.com/dword",
