@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/depcheck-parser-vue/compare/v1.0.12...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#22](https://github.com/dword-design/depcheck-parser-vue/issues/22)) ([099b349](https://github.com/dword-design/depcheck-parser-vue/commit/099b349d1cc92a87ed8ae49de0b86b52b60d77fd))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.12](https://github.com/dword-design/depcheck-parser-vue/compare/v1.0.11...v1.0.12) (2021-04-26)
 
 
