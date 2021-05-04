@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.10.3",
-    "fs-extra": "^9.0.1",
+    "fs-extra": "^10.0.0",
     "vue-template-compiler": "^2.6.11"
   },
   "devDependencies": {
