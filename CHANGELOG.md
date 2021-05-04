@@ -1,3 +1,11 @@
+## [2.0.2](https://github.com/dword-design/depcheck-parser-vue/compare/v2.0.1...v2.0.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v10 ([#25](https://github.com/dword-design/depcheck-parser-vue/issues/25)) ([c9f2a53](https://github.com/dword-design/depcheck-parser-vue/commit/c9f2a53d6fb551b4edbcd9728e0fb099696d6155))
+* update dependency with-local-tmp-dir to v4 ([#26](https://github.com/dword-design/depcheck-parser-vue/issues/26)) ([a2f8f2e](https://github.com/dword-design/depcheck-parser-vue/commit/a2f8f2e15d24bc0cee670d9d414d4c5adea19388))
+
 ## [2.0.1](https://github.com/dword-design/depcheck-parser-vue/compare/v2.0.0...v2.0.1) (2021-05-04)
 
 
