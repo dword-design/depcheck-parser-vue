@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/dword-design/depcheck-parser-vue/compare/v2.0.2...v2.0.3) (2021-05-28)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#28](https://github.com/dword-design/depcheck-parser-vue/issues/28)) ([3e8a250](https://github.com/dword-design/depcheck-parser-vue/commit/3e8a2508f8ebb518d20eca8c22ca6e8e0d44502a))
+
 ## [2.0.2](https://github.com/dword-design/depcheck-parser-vue/compare/v2.0.1...v2.0.2) (2021-05-04)
 
 
