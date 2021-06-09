@@ -1,65 +1,51 @@
 import { endent } from '@dword-design/functions'
-import execa from 'execa'
-import outputFiles from 'output-files'
+import depcheck from 'depcheck'
+import { outputFile } from 'fs-extra'
 import withLocalTmpDir from 'with-local-tmp-dir'
+
+import self from '.'
 
 export default {
   'unused dependency': () =>
     withLocalTmpDir(async () => {
-      await outputFiles({
-        'depcheck.config.js': endent`
-        const parser = require('../src')
-        module.exports = {
-          parser: {
-            '*.vue': parser,
+      const result = await depcheck('.', {
+        package: {
+          dependencies: {
+            foo: '^1.0.0',
           },
-        }
-      `,
-        'package.json': JSON.stringify(
-          {
-            dependencies: {
-              foo: '^1.0.0',
-            },
-          },
-          undefined,
-          2
-        ),
+        },
+        parsers: {
+          '**/*.vue': self,
+        },
       })
-      await expect(
-        execa.command('depcheck --config depcheck.config.js')
-      ).rejects.toThrow('Unused dependencies')
+      expect(result.dependencies).toEqual(['foo'])
     }),
   valid: () =>
     withLocalTmpDir(async () => {
-      await outputFiles({
-        'depcheck.config.js': endent`
-          const parser = require('../src')
-          module.exports = {
-            parser: {
-              '*.vue': parser,
-            },
-          }
-        `,
-        'package.json': JSON.stringify(
-          {
-            dependencies: {
-              foo: '^1.0.0',
-            },
+      await outputFile(
+        'pages/index.vue',
+        endent`
+        <script>
+        import foo from 'foo'
+        export default {
+          computed: {
+            foo: () => 1 |> (x => x * 2),
           },
-          undefined,
-          2
-        ),
-        'pages/index.vue': endent`
-          <script>
-          import foo from 'foo'
-          export default {
-            computed: {
-              foo: () => 1 |> (x => x * 2),
-            },
-          }
-          </script>
-        `,
+        }
+        </script>
+      `
+      )
+
+      const result = await depcheck('.', {
+        package: {
+          dependencies: {
+            foo: '^1.0.0',
+          },
+        },
+        parsers: {
+          '**/*.vue': self,
+        },
       })
-      await execa.command('depcheck --config depcheck.config.js')
+      expect(result.dependencies).toEqual([])
     }),
 }
