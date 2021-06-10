@@ -75,7 +75,7 @@ const parserVue = require('depcheck-parser-vue')
 
 const options = {
   parsers: {
-    '*.vue': parserVue,
+    '**/*.vue': parserVue,
   },
 }
 
