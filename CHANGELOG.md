@@ -1,3 +1,10 @@
+## [2.0.10](https://github.com/dword-design/depcheck-parser-vue/compare/v2.0.9...v2.0.10) (2022-01-12)
+
+
+### Bug Fixes
+
+* update config files ([8bef333](https://github.com/dword-design/depcheck-parser-vue/commit/8bef333964a6a95d67213a02130a83b4955849bc))
+
 ## [2.0.9](https://github.com/dword-design/depcheck-parser-vue/compare/v2.0.8...v2.0.9) (2022-01-04)
 
 
