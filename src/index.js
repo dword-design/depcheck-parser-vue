@@ -6,8 +6,8 @@ export default async filename => {
   const content = await readFile(filename, 'utf8')
 
   const parsed = parseComponent(content)
-  if (!parsed.script) {
-    return []
+  if (parsed.errors.length > 0) {
+    throw new Error(parsed.errors[0])
   }
 
   return babel.parse(parsed.script.content, { filename })
