@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/dword-design/depcheck-parser-vue/compare/v3.0.0...v3.0.1) (2023-01-07)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v11 ([#83](https://github.com/dword-design/depcheck-parser-vue/issues/83)) ([4af6090](https://github.com/dword-design/depcheck-parser-vue/commit/4af609075517b2443dfc47321c61b01ab169a936))
+
 # [3.0.0](https://github.com/dword-design/depcheck-parser-vue/compare/v2.0.11...v3.0.0) (2023-01-07)
 
 
