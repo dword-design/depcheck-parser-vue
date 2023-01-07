@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/depcheck-parser-vue/compare/v2.0.11...v3.0.0) (2023-01-07)
+
+
+### Bug Fixes
+
+* vue 3 ([#84](https://github.com/dword-design/depcheck-parser-vue/issues/84)) ([41c9820](https://github.com/dword-design/depcheck-parser-vue/commit/41c98203571d2e22110ab15ac30a2404c1ed11f2))
+
+
+### BREAKING CHANGES
+
+* Migrate to Vue 3
+
 ## [2.0.11](https://github.com/dword-design/depcheck-parser-vue/compare/v2.0.10...v2.0.11) (2023-01-07)
 
 
