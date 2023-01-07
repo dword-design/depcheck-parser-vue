@@ -30,8 +30,59 @@ export default {
       })
       expect(result.dependencies).toEqual(['foo'])
       expect(result.invalidFiles[P.resolve('pages', 'index.vue')]).toEqual(
-        new Error('tag <foo> has no matching end tag.')
+        new Error('SyntaxError: Element is missing end tag.')
       )
+    }),
+  'script and setup': () =>
+    withLocalTmpDir(async () => {
+      await outputFile(
+        'pages/index.vue',
+        endent`
+        <script>
+        import 'foo'
+        </script>
+
+        <script setup>
+        import 'bar'
+        </script>
+      `
+      )
+
+      const result = await depcheck('.', {
+        package: {
+          dependencies: {
+            bar: '^1.0.0',
+            foo: '^1.0.0',
+          },
+        },
+        parsers: {
+          '**/*.vue': self,
+        },
+      })
+      expect(result.dependencies).toEqual([])
+    }),
+  setup: () =>
+    withLocalTmpDir(async () => {
+      await outputFile(
+        'pages/index.vue',
+        endent`
+        <script setup>
+        import 'foo'
+        </script>
+      `
+      )
+
+      const result = await depcheck('.', {
+        package: {
+          dependencies: {
+            foo: '^1.0.0',
+          },
+        },
+        parsers: {
+          '**/*.vue': self,
+        },
+      })
+      expect(result.dependencies).toEqual([])
     }),
   'unused dependency': () =>
     withLocalTmpDir(async () => {
