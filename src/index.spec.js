@@ -1,21 +1,21 @@
 import { endent } from '@dword-design/functions'
 import depcheck from 'depcheck'
-import { outputFile } from 'fs-extra'
+import fs from 'fs-extra'
 import P from 'path'
 import withLocalTmpDir from 'with-local-tmp-dir'
 
-import self from '.'
+import self from './index.js'
 
 export default {
   error: () =>
     withLocalTmpDir(async () => {
-      await outputFile(
+      await fs.outputFile(
         'pages/index.vue',
         endent`
           <template>
             <foo>
           </template>
-        `
+        `,
       )
 
       const result = await depcheck('.', {
@@ -30,22 +30,22 @@ export default {
       })
       expect(result.dependencies).toEqual(['foo'])
       expect(result.invalidFiles[P.resolve('pages', 'index.vue')]).toEqual(
-        new Error('SyntaxError: Element is missing end tag.')
+        new Error('SyntaxError: Element is missing end tag.'),
       )
     }),
   'script and setup': () =>
     withLocalTmpDir(async () => {
-      await outputFile(
+      await fs.outputFile(
         'pages/index.vue',
         endent`
-        <script>
-        import 'foo'
-        </script>
+          <script>
+          import 'foo'
+          </script>
 
-        <script setup>
-        import 'bar'
-        </script>
-      `
+          <script setup>
+          import 'bar'
+          </script>
+        `,
       )
 
       const result = await depcheck('.', {
@@ -63,13 +63,13 @@ export default {
     }),
   setup: () =>
     withLocalTmpDir(async () => {
-      await outputFile(
+      await fs.outputFile(
         'pages/index.vue',
         endent`
-        <script setup>
-        import 'foo'
-        </script>
-      `
+          <script setup>
+          import 'foo'
+          </script>
+        `,
       )
 
       const result = await depcheck('.', {
@@ -100,18 +100,18 @@ export default {
     }),
   valid: () =>
     withLocalTmpDir(async () => {
-      await outputFile(
+      await fs.outputFile(
         'pages/index.vue',
         endent`
-        <script>
-        import foo from 'foo'
-        export default {
-          computed: {
-            foo: () => 1 |> (x => x * 2),
-          },
-        }
-        </script>
-      `
+          <script>
+          import foo from 'foo'
+          export default {
+            computed: {
+              foo: () => 1 |> (x => x * 2),
+            },
+          }
+          </script>
+        `,
       )
 
       const result = await depcheck('.', {
