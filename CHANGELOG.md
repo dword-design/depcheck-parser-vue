@@ -1,3 +1,17 @@
+# [4.0.0](https://github.com/dword-design/depcheck-parser-vue/compare/v3.0.4...v4.0.0) (2023-04-09)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#87](https://github.com/dword-design/depcheck-parser-vue/issues/87)) ([64d2538](https://github.com/dword-design/depcheck-parser-vue/commit/64d253861f10beefd82a99f7f7329e4da1789151))
+* update dependency @babel/core to v7.21.4 ([670908e](https://github.com/dword-design/depcheck-parser-vue/commit/670908e49a0bea240d450b2f375b83b263cd9a39))
+* update dependency @dword-design/base to v9.5.7 ([bce9022](https://github.com/dword-design/depcheck-parser-vue/commit/bce902223b01e37453b211bde81f864d5750bfd3))
+
+
+### BREAKING CHANGES
+
+* move to esm
+
 ## [3.0.4](https://github.com/dword-design/depcheck-parser-vue/compare/v3.0.3...v3.0.4) (2023-03-21)
 
 
