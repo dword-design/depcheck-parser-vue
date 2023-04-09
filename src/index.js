@@ -1,10 +1,10 @@
 import * as babel from '@babel/core'
 import { compact, join } from '@dword-design/functions'
 import { parse } from '@vue/compiler-sfc'
-import { readFile } from 'fs-extra'
+import fs from 'fs-extra'
 
 export default async filename => {
-  const content = await readFile(filename, 'utf8')
+  const content = await fs.readFile(filename, 'utf8')
 
   const parsed = parse(content)
   if (parsed.errors.length > 0) {
@@ -15,6 +15,6 @@ export default async filename => {
     [parsed.descriptor.scriptSetup?.content, parsed.descriptor.script?.content]
       |> compact
       |> join('\n'),
-    { filename }
+    { filename },
   )
 }
