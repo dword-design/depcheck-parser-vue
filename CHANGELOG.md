@@ -1,3 +1,10 @@
+## [4.0.2](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.1...v4.0.2) (2023-04-10)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v5.0.1 ([8fe9e1f](https://github.com/dword-design/depcheck-parser-vue/commit/8fe9e1ff60952bd94f717fa2b0fb3143422c8ac2))
+
 ## [4.0.1](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.0...v4.0.1) (2023-04-09)
 
 
