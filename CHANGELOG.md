@@ -1,3 +1,10 @@
+## [4.0.4](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.3...v4.0.4) (2023-05-02)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.21.8 ([67b4ce4](https://github.com/dword-design/depcheck-parser-vue/commit/67b4ce4bdda27f8f7dbf0187102032272ebc353d))
+
 ## [4.0.3](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.2...v4.0.3) (2023-04-29)
 
 
