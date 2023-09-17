@@ -1,3 +1,10 @@
+## [4.0.17](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.16...v4.0.17) (2023-09-17)
+
+
+### Bug Fixes
+
+* update dependency depcheck to v1.4.6 ([bf50f6a](https://github.com/dword-design/depcheck-parser-vue/commit/bf50f6a97601cc882d32c7b103a0847068dcdfdc))
+
 ## [4.0.16](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.15...v4.0.16) (2023-09-16)
 
 
