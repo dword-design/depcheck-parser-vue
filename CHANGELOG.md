@@ -1,3 +1,10 @@
+## [4.0.21](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.20...v4.0.21) (2023-10-20)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.3.5 ([6235e8c](https://github.com/dword-design/depcheck-parser-vue/commit/6235e8cffec16b6d8763d865a1e2c43b2068e1f1))
+
 ## [4.0.20](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.19...v4.0.20) (2023-10-17)
 
 
