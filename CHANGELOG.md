@@ -1,3 +1,16 @@
+# [5.0.0](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.39...v5.0.0) (2024-01-10)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#98](https://github.com/dword-design/depcheck-parser-vue/issues/98)) ([f669468](https://github.com/dword-design/depcheck-parser-vue/commit/f66946867f4d5ef2ac13296eb810d1764aa381d2))
+* update dependency @vue/compiler-sfc to v3.4.7 ([893889c](https://github.com/dword-design/depcheck-parser-vue/commit/893889c00162d7ca9c6bd739f4e5644928691da2))
+
+
+### BREAKING CHANGES
+
+* node >= 18
+
 ## [4.0.39](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.38...v4.0.39) (2024-01-08)
 
 
