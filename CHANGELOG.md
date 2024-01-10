@@ -1,3 +1,235 @@
+## [4.0.39](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.38...v4.0.39) (2024-01-08)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.4.6 ([65b3213](https://github.com/dword-design/depcheck-parser-vue/commit/65b3213df0c51db17dd4477177d8e92a2792206d))
+
+## [4.0.38](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.37...v4.0.38) (2024-01-04)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.4.5 ([863ddfc](https://github.com/dword-design/depcheck-parser-vue/commit/863ddfced4c4c48e757d3ebd6195e016fc95ca1e))
+
+## [4.0.37](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.36...v4.0.37) (2024-01-03)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.4.4 ([a66fdcc](https://github.com/dword-design/depcheck-parser-vue/commit/a66fdcc8eec0fd0c830d7c918e97e9e5b3002619))
+
+## [4.0.36](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.35...v4.0.36) (2023-12-30)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.4.3 ([4de08f1](https://github.com/dword-design/depcheck-parser-vue/commit/4de08f17f09b385fa289e196ca7cc79e4ecd1ae9))
+
+## [4.0.35](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.34...v4.0.35) (2023-12-30)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.4.1 ([5da77c2](https://github.com/dword-design/depcheck-parser-vue/commit/5da77c25ca3e82a1b991f04e2660ffba40fdff2e))
+
+## [4.0.34](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.33...v4.0.34) (2023-12-30)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.23.7 ([a8ae099](https://github.com/dword-design/depcheck-parser-vue/commit/a8ae099ebfa6223c48a237804134ec997c089b87))
+
+## [4.0.33](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.32...v4.0.33) (2023-12-29)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.4.0 ([a4d83cb](https://github.com/dword-design/depcheck-parser-vue/commit/a4d83cb63eb127094f861774b3086a327b08555e))
+
+## [4.0.32](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.31...v4.0.32) (2023-12-19)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.3.13 ([90ab685](https://github.com/dword-design/depcheck-parser-vue/commit/90ab685e15224fed21d1b425a128c3502132079d))
+
+## [4.0.31](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.30...v4.0.31) (2023-12-11)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.23.6 ([94b56b3](https://github.com/dword-design/depcheck-parser-vue/commit/94b56b383676d86464ccc49ece9b4fa5d7f5bff7))
+
+## [4.0.30](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.29...v4.0.30) (2023-12-08)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.3.11 ([b32f16d](https://github.com/dword-design/depcheck-parser-vue/commit/b32f16d1993229379934652425bca9a089c08b6c))
+
+## [4.0.29](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.28...v4.0.29) (2023-12-04)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.3.10 ([a1c2522](https://github.com/dword-design/depcheck-parser-vue/commit/a1c2522d8a0f20c7c87dc869978e18776d98044c))
+
+## [4.0.28](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.27...v4.0.28) (2023-11-29)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.23.5 ([f5f8c6d](https://github.com/dword-design/depcheck-parser-vue/commit/f5f8c6d10585398975a873fa399f11ae301db814))
+
+## [4.0.27](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.26...v4.0.27) (2023-11-28)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v11.2.0 ([57df62c](https://github.com/dword-design/depcheck-parser-vue/commit/57df62c65c7c8a67fe7a949a96e25f29135f1d18))
+
+## [4.0.26](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.25...v4.0.26) (2023-11-25)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.3.9 ([f2fbd38](https://github.com/dword-design/depcheck-parser-vue/commit/f2fbd38e3db5c4ab8af60360362f85bd8f534955))
+
+## [4.0.25](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.24...v4.0.25) (2023-11-09)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.23.3 ([dae509d](https://github.com/dword-design/depcheck-parser-vue/commit/dae509dd1d3786e71881f7a02e51c36d8012e58b))
+
+## [4.0.24](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.23...v4.0.24) (2023-11-06)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.3.8 ([5383e38](https://github.com/dword-design/depcheck-parser-vue/commit/5383e38bcc22c1e8a0377d3e85254b2c904bcfba))
+
+## [4.0.23](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.22...v4.0.23) (2023-10-25)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.3.7 ([3f2471e](https://github.com/dword-design/depcheck-parser-vue/commit/3f2471eaf9968c86f0adc73a827d0c6cd6e36274))
+
+## [4.0.22](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.21...v4.0.22) (2023-10-20)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.3.6 ([f815fcc](https://github.com/dword-design/depcheck-parser-vue/commit/f815fcc0db58f15ffcbcbe6c2bfa94a7063c0fcd))
+
+## [4.0.21](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.20...v4.0.21) (2023-10-20)
+
+
+### Bug Fixes
+
+* update dependency @vue/compiler-sfc to v3.3.5 ([6235e8c](https://github.com/dword-design/depcheck-parser-vue/commit/6235e8cffec16b6d8763d865a1e2c43b2068e1f1))
+
+## [4.0.20](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.19...v4.0.20) (2023-10-17)
+
+
+### Bug Fixes
+
+* update dependency depcheck to v1.4.7 ([a205af4](https://github.com/dword-design/depcheck-parser-vue/commit/a205af4fdb3bf9c9a82b23ae0d747c7c1c82fcf6))
+
+## [4.0.19](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.18...v4.0.19) (2023-10-12)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.23.2 ([b757cf1](https://github.com/dword-design/depcheck-parser-vue/commit/b757cf12c35dadca5d7fcd05746d9f111e3a1d3a))
+
+## [4.0.18](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.17...v4.0.18) (2023-09-25)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.23.0 ([3c9adf4](https://github.com/dword-design/depcheck-parser-vue/commit/3c9adf40110746e165e49bb91047042941e1e7c9))
+
+## [4.0.17](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.16...v4.0.17) (2023-09-17)
+
+
+### Bug Fixes
+
+* update dependency depcheck to v1.4.6 ([bf50f6a](https://github.com/dword-design/depcheck-parser-vue/commit/bf50f6a97601cc882d32c7b103a0847068dcdfdc))
+
+## [4.0.16](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.15...v4.0.16) (2023-09-16)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.22.20 ([26e0e33](https://github.com/dword-design/depcheck-parser-vue/commit/26e0e33b05ac5b706493fdbb592bd37664934f89))
+
+## [4.0.15](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.14...v4.0.15) (2023-09-14)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.22.19 ([d0fb5ae](https://github.com/dword-design/depcheck-parser-vue/commit/d0fb5aeb78ef770b78c54af127608f8a1a26b37e))
+
+## [4.0.14](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.13...v4.0.14) (2023-09-08)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.22.17 ([4595eed](https://github.com/dword-design/depcheck-parser-vue/commit/4595eed4dff280dc7f08af06f37f1d87329e9d8c))
+
+## [4.0.13](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.12...v4.0.13) (2023-09-04)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.22.15 ([7a52726](https://github.com/dword-design/depcheck-parser-vue/commit/7a527263f2c37db407497aa443ee1935364feedf))
+
+## [4.0.12](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.11...v4.0.12) (2023-08-24)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.22.11 ([29812ae](https://github.com/dword-design/depcheck-parser-vue/commit/29812aeffec92cd6b809a3f4c8c5d6604d2ccc4f))
+
+## [4.0.11](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.10...v4.0.11) (2023-08-21)
+
+
+### Bug Fixes
+
+* update dependency depcheck to v1.4.5 ([2cba245](https://github.com/dword-design/depcheck-parser-vue/commit/2cba24576fe8e7662ab368aefde253eb6fc29f2c))
+
+## [4.0.10](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.9...v4.0.10) (2023-08-07)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.22.10 ([83b13d6](https://github.com/dword-design/depcheck-parser-vue/commit/83b13d6319450e5111bfa4d62e4cd7ee2f9884b9))
+
+## [4.0.9](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.8...v4.0.9) (2023-07-12)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.22.9 ([add4527](https://github.com/dword-design/depcheck-parser-vue/commit/add45270b8674cf2276e99e2b59669117ed84547))
+
+## [4.0.8](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.7...v4.0.8) (2023-07-06)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.22.8 ([6780748](https://github.com/dword-design/depcheck-parser-vue/commit/6780748911a8b90a21b7f253d4983c00b5a20371))
+
+## [4.0.7](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.6...v4.0.7) (2023-05-27)
+
+
+### Bug Fixes
+
+* update dependency @babel/core to v7.22.1 ([88a3219](https://github.com/dword-design/depcheck-parser-vue/commit/88a3219441dc9d2e3bc91b787a98dc9ea51a315c))
+* update dependency @vue/compiler-sfc to v3.3.4 ([4f5e8be](https://github.com/dword-design/depcheck-parser-vue/commit/4f5e8be45597742de2f53f6001dadff96aa4f088))
+
 ## [4.0.6](https://github.com/dword-design/depcheck-parser-vue/compare/v4.0.5...v4.0.6) (2023-05-12)
 
 
